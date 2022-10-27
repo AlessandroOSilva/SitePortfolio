@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html{ 
+  background-color: rgb(26, 26, 29);
+}
+
+.head {
+  position: fixed;
+
+}
+
+
+.menu{
+  position: fixed;
+  display: block;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  width: 100%;
+  min-width: 300px;
+  max-height: 100%;
+  background-color: rgb(38, 36, 43);
+  box-shadow: 10px 5px 5px black;
+  padding: 0px;
+}
+
+.menu .menu-center{
+  margin-left: 300px;
+  margin-right: 300px;
+  max-width: 1400px;
+
+}
+
+.menu-center :first-child{
+  float: left;
+}
+
+.menu-center :last-child{
+  float:right;
+}
+
+.menu ul{
+  list-style: none;
+  padding: 0px;
+  background-color: rgb(38, 36, 43);
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  height: 78px;
+  min-width: 125px;
+}
+
+.menu li{
+  display: inline;
+  font-size: 20px;
+  min-width: 100px;
+  
+}
+
+.menu ul li a{
+  padding: 25px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  transition: background .4s;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 15px;
+}
+
+.menu li a:hover{
+  background-color: rgb(107, 107, 163);
+  height: auto;
+  width: auto;
+}

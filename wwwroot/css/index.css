@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+*{
+    margin: 0;
+}
+
+p{
+    font-size: 25px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inicio{
+    padding-top: 150px;
+    text-align: center;
+    transition: ease;
+  }
+
+  .inicio-center {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgb(26, 26, 29);
+  }
+
+#status{
+    font-size: 75px;
+    font-family: 'Rubik Dirt', cursive;
+    color: goldenrod;
+    text-shadow: 10px 5px 5px black;
+}
+
+#dev{
+    font-size: 150px;
+    font-family: 'Rubik Dirt', cursive;
+    text-shadow: 10px 5px 5px black;
+}
+
+h2{
+    font-size: 75px;
+    color: white;
+    font-family: 'Silkscreen', cursive;
+    text-shadow: 10px 5px 5px black;
+}
+
+.sobre{
+    margin-top: 100px;
+    padding-top: 150px;
+    text-align: center;
+    transition: ease;
+}
+
+.sobre-center{
+    padding-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    min-height: 700px;
+}
+
+.esquerda{
+    text-align: left;
+    margin: 50px;
+    max-width: 450px;
+    max-height: 450px;
+    float: left;
+}
+
+.direita{
+    text-align: left;
+    margin: 50px;
+    max-width: 500px;
+    max-height: 500px;
+    float: right;
+}
+
+.sobre img{
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.destaque{
+    color: rebeccapurple;
+}
+
+.conhecimentos{
+    padding-top: 50px;
+    text-align: center;
+    transition: ease;
+}
+
+.conhecimentos-center{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.conhecimentos-center ul{
+    list-style: none;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+.conhecimentos ul li{
+    padding: 50px;
+    color: white;
+}
+
+.container{
+    margin-left: 20px;
+    padding: 15px;
+    background-color: #333333;
+    border-radius: 9px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.container img{
+    width: 160px;
+    height: 160px;
+}
+
+.container a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container:hover{
+    background-color: rgb(107, 107, 163);
+    height: 200px;
+    width: 200px;
+    min-width: fit-content;
+    max-width: 100%;
+  }
+
+  .botton{
+    height: 35px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 23px;
+    text-align: center;
+  }
+
+  .footer{
+    clear: both;
+    height: 50px;
+    width: 1920px;
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .footer-center{
+    margin-left: 300px;
+    margin-right: 300px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .escondido{
+    padding-top: 50px;
+    display: none;
+  }
+
+  .contatos{
+    padding-top: 50px;
+    background-color: white;
+    
+  }
+
+
+  .contatos img{
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+  }
+
+.contatos img:hover{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
